@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24281332'))
 API_HASH = environ.get('API_HASH', 'f1afa19bd6769de39c4777660849838d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8909484178:AAHxjUYI5OLXsI8C5u0-QXMPtAFUBJQO1G8')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8909484178:AAE24Fxjkog3ZEFlqhxmy--HAG0sU_jM-XA')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7148530115').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+gpDXVd4oVCQzYj
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003960362526').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vaibhavgatflow:vaibhavgatflow@cluster0.4ufyjbr.mongodb.net/?appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vaibhavgat68_db_user:vaibhavgat68_db_user@vgbotdb.huhtzen.mongodb.net/?appName=vgbotdb")
+DATABASE_NAME = environ.get('DATABASE_NAME', "vgbotdb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
